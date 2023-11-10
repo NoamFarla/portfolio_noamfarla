@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <script src="js/0f16caa2f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Noam Farla</title>
+  </head>
+  <body>
+    <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+    <script
+      type="text/javascript"
+      src="js/cookie-consent.js"
+      charset="UTF-8"
+    ></script>
+    <script type="text/javascript" charset="UTF-8">
+      document.addEventListener("DOMContentLoaded", function () {
+        cookieconsent.run({
+          notice_banner_type: "simple",
+          consent_type: "express",
+          palette: "dark",
+          language: "en",
+          page_load_consent_levels: ["strictly-necessary"],
+          notice_banner_reject_button_hide: false,
+          preferences_center_close_button_hide: false,
+          page_refresh_confirmation_buttons: false,
+          website_name: "NoamFarla",
+        });
+      });
+    </script>
+
+    <!-- Google Analytics -->
+    <script
+      type="text/plain"
+      data-cookie-consent="tracking"
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-Z79PDHEQJY"
+    ></script>
+    <script type="text/plain" data-cookie-consent="tracking">
+      window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-Z79PDHEQJY');
+    </script>
+    <!-- end of Google Analytics-->
+
+    <noscript
+      >Free cookie consent management tool by
+      <a href="https://www.termsfeed.com/">TermsFeed</a></noscript
+    >
+    <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1><span>N</span>oam.</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web & Mobile Applications Developer</p>
+          <h1>Hi, I'm <span>Noam</span><br />From Belgium</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+
+    <div id="about" class="fade-in">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assets/img-1.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a 17 year old web & mobile applications developer who goes to
+              school at IFAPME to become a full-time developer later. I am
+              currently learning Flutter for cross platform app and web
+              development, and also React for web development.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Front end web development
+                </li>
+                <li>
+                  <span>Cross Platform App Development</span><br />Full stack
+                  cross platform app development with flutter
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>May 2023 - Nov 2023</span><br />Internship at Top Assets
+                  as web & mobile applications developer
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />Junior developer at IFAPME in
+                  Braine-Le-Comte.
+                </li>
+                <li>
+                  <span>2020 - 2021</span><br />2nd additional year at IPES in
+                  Tubize.
+                </li>
+                <li>
+                  <span>2019 - 2020</span><br />Media and graphics at Sint
+                  Cordula in Schoten.
+                </li>
+                <li>
+                  <span>2018 - 2019</span><br />Technical science at Sint Jozef
+                  in Schoten.
+                </li>
+                <li>
+                  <span>2012 - 2018</span><br />Primary school at Melgesdreef in
+                  Merksem.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I provide professional website development services tailored to
+              meet your business needs.
+            </p>
+            <a href="#">Coming soon</a>
+          </div>
+          <div>
+            <i class="fas fa-layer-group"></i>
+            <h2>Cross Platform App Development</h2>
+            <p>
+              I provide professional cross platform app development services
+              tailored to meet your business needs.
+            </p>
+            <a href="#">Coming soon</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="assets/portfolioProject.png"
+              style="object-fit: cover; width: 100%; height: 100%"
+              alt="work-1"
+            />
+            <div class="layer">
+              <h3>My Personal Portfolio</h3>
+              <p>
+                This is my personal portfolio as you probably know as you are on
+                it right now. It's one of my first ever projects, which got
+                upgraded over the course of a few months as i learned more and
+                more.
+              </p>
+              <a href="https://github.com/NoamFarla/My_Portfolio.git"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="assets/soothebotProject.png"
+              style="object-fit: cover; width: 100%; height: 100%"
+              alt="work-2"
+            />
+            <div class="layer">
+              <h3>SootheBot.AI</h3>
+              <p>
+                This is currently my biggest project. It is still in its early
+                stages of development and the code is close sourced for now. No
+                details have been publicly released yet and we expect a public
+                release end 2024 - beginning 2025.
+              </p>
+              <a href="#" onclick="unavailable(); return false;"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" onclick="nothingElse(); return false;" class="btn"
+          >See more</a
+        >
+      </div>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <a href="mailto: noamfrl06@gmail.com">
+              <i class="fas fa-paper-plane"></i> noamfrl06@gmail.com</a
+            ><br /><br />
+            <a href="mailto: noamfrl@icloud.com">
+              <i class="fas fa-paper-plane"></i> noamfrl@icloud.com</a
+            ><br /><br />
+            <a href="tel: 0471952568">
+              <i class="fas fa-phone-square"></i> +32 471 95 25 68</a
+            >
+            <div class="social-icons">
+              <a href="https://github.com/NoamFarla"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/pitbfl/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.reddit.com/user/pitbfrl"
+                ><i class="fab fa-reddit"></i
+              ></a>
+            </div>
+            <a href="/assets/CV.pdf" download="" class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form action="contact" method="post" name="portfolio contact form">
+              <input
+                type="hidden"
+                name="form-name"
+                value="portfolio contact form"
+              />
+              <input class="hidden" name="hpfield" />
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                required=""
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required=""
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required=""
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2023. Made with <i class="fas fa-heart"></i> by Noam.</p>
+        <a href="#" id="open_preferences_center" class="cookies-preferences"
+          >Update cookies preferences</a
+        >
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
