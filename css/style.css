@@ -400,7 +400,7 @@ form .btn2 {
   margin-top: 50px;
 }
 
-.copyright i {
+.copyright i, .license {
   color: #ff004f;
 }
 
