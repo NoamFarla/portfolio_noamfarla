@@ -517,8 +517,8 @@ nav .fas {
     background-color: #fff;
     border-radius: 50%;
     opacity: 1;
-    animation: wheel 1s infinite;
-    -webkit-animation: wheel 1s infinite;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
   }
 }
 
