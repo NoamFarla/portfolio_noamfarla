@@ -400,7 +400,8 @@ form .btn2 {
   margin-top: 50px;
 }
 
-.copyright i, .license {
+.copyright i,
+.license {
   color: #ff004f;
 }
 
@@ -496,29 +497,41 @@ nav .fas {
   display: none;
 }
 
-.cc-nb-okagree {
-  background: #ff004f !important;
-  color: white !important;
-}
-
-.cc-nb-reject {
-  background: #ff004f !important;
-  color: white !important;
-}
-
-.cc-cp-foot-save {
-  background: #ff004f !important;
-  color: white !important;
-}
-
-.cookies-preferences {
-  color: #ff004f;
-  text-decoration: none;
-  font-size: 17px;
-  transition: 0.1s;
-  padding-bottom: 1px;
-  border-bottom: 2px solid #ff004f;
+.mouse {
+  width: 30px;
+  height: 54px;
+  border: 2px solid #fff;
+  border-radius: 36px;
   position: absolute;
-  bottom: 15px;
-  left: 15px;
+  bottom: 20px;
+  left: 20px;
+
+  &::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1s infinite;
+    -webkit-animation: wheel 1s infinite;
+  }
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 30px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 30px;
+  }
 }
