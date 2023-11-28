@@ -507,7 +507,7 @@ nav .fas {
   left: 20px;
 
   &::before {
-    content: '';
+    content: "";
     width: 7px;
     height: 7px;
     position: absolute;
