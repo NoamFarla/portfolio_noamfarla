@@ -435,8 +435,8 @@ nav .fas {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 25%;
-  padding: 10px;
+  width: 35%;
+  padding: 20px;
   text-align: center;
   font-size: 16px;
   background: #ff004f;
@@ -460,6 +460,14 @@ nav .fas {
 
 .btn3:hover {
   background: #464646;
+}
+
+@media screen and (max-width: 600px) {
+  #cookieConsentBanner {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+  }
 }
 
 @keyframes wheel {
