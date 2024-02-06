@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
-      (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3855571,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name=viewport content="width=device-width, initial-scale=1.0">
@@ -285,6 +275,29 @@
         <div class="mouse"></div>
       </div>
     </div>
-    <script src="js/script.js"></script>
+    <div id="cookieConsentBanner">
+      <p>This website uses cookies to ensure you get the best experience on our website.</p>
+      <button class="btn3" onclick="acceptCookies()">Accept</button>
+      <button class="btn3" onclick="refuseCookies()">Refuse</button>
+    </div>
+    <script src="js/script.js" defer></script>
+    <script src="/js/cookies.js" defer></script>
+    <script>
+      function loadHotjar() {
+        (function(h, o, t, j, a, r) {
+          h.hj =
+            h.hj ||
+            function() {
+              (h.hj.q = h.hj.q || []).push(arguments);
+            };
+          h._hjSettings = { hjid: 3855571, hjsv: 6 };
+          a = o.getElementsByTagName('head')[0];
+          r = o.createElement('script');
+          r.async = 1;
+          r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+          a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+      }
+    </script>
   </body>
 </html>
